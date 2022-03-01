@@ -13,54 +13,54 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:background="@drawable/rounded"
         android:padding="10dp"
         android:text="Hello Homework!"
         android:textSize="20sp"
-        android:textStyle="italic"
-        android:background="@color/purple_500"
-
-        />
+        android:textStyle="italic" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
-        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
         android:hint="Don't type here!!!!!!"
         android:minHeight="48dp"
-        android:background="@color/purple_500"/>
+        android:padding="10dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
         android:text="Button"
         android:textColor="@android:color/black"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="switch it"
         android:layout_marginStart="10dp"
-        android:background="@color/purple_500"
-        android:padding="10dp"/>
+        android:background="@drawable/rounded"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="switch it" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="I am agree"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:background="@color/purple_500"/>
+        android:background="@drawable/rounded"
+        android:text="I am agree" />
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="16dp"
-        android:background="#033B73"
-        android:layout_marginStart="10dp"/>
+        android:background="@drawable/rounded" />
 
 </LinearLayout>
